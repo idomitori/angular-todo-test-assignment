@@ -1,27 +1,29 @@
-# AngularJuniorTask
+# Тестовое задание на позицию Frontend Developer (Angular)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
+Тебе предстоит сделать классический todo список, используя готовый сервис `TodoStoreService` и модель `TodoItem`.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Необходимо:
 
-## Code scaffolding
+- Отображать список задач из сервиса `TodoStoreService`
+- Сделать возможность редактирования, удаления и добавления новой задачи
+- Дать возможность изменить статус (выполнено/активно) и важность задачи
+- Предоставить возможность сортировать задачи по дате создания, важности и статусу
+- Вверху списка отображать статистику независимо от фильтров: сколько всего есть задач, сколько задач активно и сколько задач выполнено
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Будет плюсом:
 
-## Build
+- Стилизовать на свой вкус, сделать кастомные чекбоксы для элементов списка
+- Добавить анимации на добавление/удаление элемента
+- Сделать вышеописанную функциональность независимым модулем со своим роутингом
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Advanced:
 
-## Running unit tests
+- Модифицировать приложение и TodoStoreService таким образом, чтобы была возможность создавать несколько списков
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+Ограничений на использование библиотек и других инструментов нет.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Для установки зависимостей используй `npm install`. Для старта приложения `npm run start`.
